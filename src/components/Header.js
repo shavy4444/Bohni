@@ -19,23 +19,23 @@ const Header = () => {
 return(
 
 
-    <View style={{backgroundColor:'white',height:"56%"}}>
+    <View style={{backgroundColor:'white',height:"53%"}}>
        
             <ImageBackground source={Logo} resizeMode="cover" style={styles.Image}>
                  <Text style={styles.rating}><MaterialCommunityIcons name="star" size={19} color="#e19330" />4.3</Text>
       <Text style={styles.text}>IIuvia bakery
-      <MaterialCommunityIcons style={styles.icon} name="check-decagram" size={20} color="#64a93f" /></Text>
+      <MaterialCommunityIcons style={styles.icon} name="check-decagram" size={20} color="#24acba" /></Text>
      <Text style={styles.basetext}>{' '}<Entypo name="dot-single" size={24} color="#64a93f" />Open {'    '}     
      <Ionicons name="location-outline" size={24} color="#e19330" />2.3Km
      </Text>
     </ImageBackground>
     <View elevation={5} style={styles.contain}>
-      <Text style={{fontSize:17},{marginBottom:10}}>
-      <AntDesign name="dropbox" size={24} color="#e19330" />{'     '}Order online {'         '}
+      <Text style={{fontSize:23},{marginBottom:10}}>
+      <AntDesign name="dropbox" size={24} color="#e19330" />{'     '}Order online {'                '}
       <MaterialIcons name="delivery-dining" size={24} color="#e19330" />{'  '}No delivery
       </Text>
-      <Text style={{fontSize:17},{marginBottom:5}}>
-      <FontAwesome name="car" size={20} color="#e19330" />{'      '}On the move{'          '}
+      <Text style={{fontSize:23},{marginBottom:5}}>
+      <FontAwesome name="car" size={20} color="#e19330" />{'      '}On the move{'                '}
       <Entypo name="calendar" size={20} color="#e19330" />{'   '}Appointment
       </Text>
       </View>

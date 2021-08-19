@@ -10,12 +10,15 @@ import styles from "../style/headerStyle";
 const IndexScreen = ({navigation}) => {
   
     return (
-      
+    
          <View style={{backgroundColor:'white'}}>
          <Header></Header>
           <Mainbody></Mainbody>
-          <Recommend></Recommend>
-          <Recommend></Recommend>
+          <ScrollView style={{height:"30%"}}>
+               <Recommend></Recommend>
+               <Recommend></Recommend>
+               <Recommend></Recommend>
+          </ScrollView>
           <Footer></Footer>
        </View>
       )

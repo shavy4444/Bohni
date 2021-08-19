@@ -8,7 +8,7 @@ const Mainbody=() =>{
  return (
    
 <View>
-     <View style={{flexDirection:'row'},{backgroundColor:'#E1E1E1',height:8}}></View>
+     <View style={{flexDirection:'row'},{backgroundColor:'#E1E1E1',height:6}}></View>
               
       <View style={{flexDirection:'row',alignSelf:'center'}}>
       <TouchableOpacity style={styler.crumb1}>   

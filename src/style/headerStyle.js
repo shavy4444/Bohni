@@ -6,7 +6,7 @@ import { withSafeAreaInsets } from 'react-native-safe-area-context';
 const styles=StyleSheet.create({
 Image:{
     justifyContent:'center',
-    height:"76%",
+    height:"74%",
     width:"100%",
     position:'absolute'
 },
@@ -16,13 +16,15 @@ container:{
     height:"20%"
 },
 text:{
-    marginTop:63,
+    marginTop:18,
 fontSize:40,
 flexDirection:'row',
 color:'white',
 fontWeight:'800'
 },
 icon:{
+    marginBottom:10,
+    paddingBottom:10
 },
 basetext:{
     marginBottom:5,
@@ -32,13 +34,14 @@ basetext:{
     color:'white'
 },contain:{
     position:'absolute',
-    top:"52%",
+    top:"45%",
     backgroundColor:'white',
-    width:"80%",
+    width:"90%",
     borderColor:'#8a795d',
     borderRadius:10,
     padding:14,
     margin:10,
+    marginTop:15,
     alignSelf:'center',
 },cont: {
    flex:1,

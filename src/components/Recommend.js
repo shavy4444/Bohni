@@ -22,23 +22,23 @@ const Recommend = () => {
 
 const styles= StyleSheet.create({
     container: {
-        marginTop: 15,
+        marginTop: 8,
         backgroundColor:'white',
         flexDirection: "row",
         borderWidth: 1,
-        marginHorizontal: 8,
-        padding: 8,
+        marginHorizontal: 18,
+        padding: 5,
         borderColor: "#e5e5e5",
         borderRadius: 6,
         justifyContent: "space-between",
         alignItems: "center",
-        paddingVertical: 22,
+        paddingVertical:10,
     },
     image: {
-        height: 100,
-        width: 100,
+        height: 90,
+        width: 90,
         borderRadius: 10,
-        resizeMode: "cover"
+        resizeMode: "cover",
     },
     titleText: {
         fontWeight: "bold",
@@ -47,6 +47,7 @@ const styles= StyleSheet.create({
     addText: {
         borderWidth: 2,
         padding: 5,
+        marginRight:5,
         borderRadius: 5,
         color: "#33a243",
         borderColor: "#33a243",
